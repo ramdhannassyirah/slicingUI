@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Article UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Breadcrumb -->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item fw-bold">
+            <span class="mx-1"><i class="fa-solid fa-house"></i></span>Home
+          </li>
+          <li class="breadcrumb-item fw-bold" aria-current="page">
+            E-commerce
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Products</li>
+        </ol>
+      </nav>
+
+      <!-- heading -->
+      <div class="heading">
+        <h1>Heading H1 and other good things</h1>
+        <h2>
+          Subheading which is actually the meta description, but only for now
+          because we may want to manage it differently in the future
+        </h2>
+      </div>
+      <!-- category -->
+      <div class="category gap-3">
+        <a
+          href="https://www.contoh-link.com"
+          class="btn border-0 rounded-5 text-white text-center"
+          >Category 1</a
+        >
+        <a
+          href="https://www.contoh-link.com"
+          class="btn border-0 rounded-5 text-white"
+          >Category 1</a
+        >
+        <a
+          href="https://www.contoh-link.com"
+          class="btn border-0 rounded-5 text-white"
+          >Category 1</a
+        >
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <!-- waktu -->
+              <div class="time d-flex align-items-center">
+                <h1>25/12/2023 - 10:39</h1>
+              </div>
+
+              <!-- Short bio -->
+              <div class="short-bio d-flex align-items-center m-0">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="rounded-1"
+                />
+                <div class="bio m-0 px-2">
+                  <h1 class="m-0">Author name</h1>
+                  <p class="m-0">AI expert and SaaS founder (short bio)</p>
+                </div>
+              </div>
+
+              <!-- table 1 -->
+              <div
+                class="tab position-fixed border border-1 rounded-2 bg-light"
+              >
+                <div class="teks-title">
+                  <h1>Table of contents</h1>
+                </div>
+                <div class="deskripsi-table">
+                  <ul class="m-0">
+                    <li>short paragraph</li>
+                    <li>he dotted list is nice for the summary</li>
+                    <li>other short points to explain the news</li>
+                    <li>a short summary of the content of this very article</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ICONS -->
+          <div class="icon position-absolute d-sm-none d-lg-block">
+            <div class="text">
+              <h1>Share this article:</h1>
+            </div>
+            <div class="icon-share d-flex justify-content-between">
+              <i class="fa-brands fa-whatsapp fa-2xl"></i>
+              <i class="fa-brands fa-twitter fa-2xl"></i>
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+              <i class="fa-solid fa-paper-plane fa-2xl"></i>
+              <i class="fa-solid fa-envelope fa-2xl"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <!-- image tumb -->
+          <div class="image my-2 rounded-2">
+            <img class="img-fluid rounded-2"
+            src="https://source.unsplash.com/random" alt="" / >
+          </div>
+
+          <!-- posted By -->
+          <p class="posted fw-bold">
+            Original article posted by <a href="">{{source}}</a> (linked to
+            <a href="">{{source URL}}</a>)
+          </p>
+
+          <!-- table 2 -->
+
+          <div class="tab2 border border-0 rounded-3 bg-light">
+            <div class="tab2-title2">
+              <h1>TL;DR</h1>
+              <div class="tab2-deskripsi">
+                <ul>
+                  <li>short paragraph</li>
+                  <li>he dotted list is nice for the summary</li>
+                  <li>other short points to explain the news</li>
+                  <li>a short summary of the content of this very article</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- paragraf -->
+          <div class="paragraf">
+            <p>
+              Static websites are now used to bootstrap lots of websites and are
+              becoming the basis for a variety of tools that even influence both
+              web designers and developers. Static websites are now used to
+              bootstrap lots of websites and are becoming the basis for a
+              variety of tools that even influence both web designers and
+              developers. Static websites are now used to bootstrap lots of
+              websites and are becoming the basis for a variety of tools that
+              even influence both web designers and developers. Static websites
+              are now used to bootstrap lots of websites and are becoming the
+              basis for a variety of tools that even influence both web
+              designers and developers.
+            </p>
+            <p>
+              Static websites are now used to bootstrap lots of websites and are
+              becoming the basis for a variety of tools that even influence both
+              web designers and developers. Static websites are now used to
+              bootstrap lots of websites and are becoming the basis for a
+              variety of tools that even influence both web designers and
+              developers. Static websites are now used to bootstrap lots of
+              websites and are becoming the basis for a variety of tools that
+              even influence both web designers and developers. Static websites
+              are now used to bootstrap lots of websites and are becoming the
+              basis for a variety of tools that even influence both web
+              designers and developers.
+            </p>
+            <p>
+              Static websites are now used to bootstrap lots of websites and are
+              becoming the basis for a variety of tools that even influence both
+              web designers and developers. Static websites are now used to
+              bootstrap lots of websites and are becoming the basis for a
+              variety of tools that even influence both web designers and
+              developers. Static websites are now used to bootstrap lots of
+              websites and are becoming the basis for a variety of tools that
+              even influence both web designers and developers. Static websites
+              are now used to bootstrap lots of websites and are becoming the
+              basis for a variety of tools that even influence both web
+              designers and developers.
+            </p>
+            <hr />
+          </div>
+
+          <p class="posted fw-bold">
+            Original article posted by <a href="">{{source}}</a> (linked to
+            <a href="">{{source URL}}</a>)
+          </p>
+
+          <!-- button Previous post & Next post  -->
+          <div class="button">
+            <div class="row">
+              <div class="col">
+                <button class="text-start border-0 fw-bold">
+                  <- Previous post
+                </button>
+              </div>
+              <div class="col">
+                <button class="text-end border-0 fw-bold">Next post -></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="rn text-center fw-bold">Related news</h1>
+
+      <!-- card -->
+      <div class="col carditem d-flex flex-wrap justify-content-center gap-4">
+        <div class="card" style="width: 306px">
+          <img
+            src="https://source.unsplash.com/random"
+            class="card-img-top p-3 rounded-1"
+            alt="..."
+            height="216"
+            width="258"
+          />
+
+          <div class="card-body">
+            <div class="card-deskripsi">
+              <a
+                href="https://www.contoh-link.com"
+                class="btn2 border-0 rounded-5 text-white"
+                >Category 1</a
+              >
+              <h1 class="card-title fw-bold">Our first office</h1>
+              <p class="card-text">
+                Over the past year, Volosoft has undergone many changes! After
+                months of preparation and some hard work, we moved to our new
+                office .
+              </p>
+            </div>
+            <div class="card-bio d-flex">
+              <div class="">
+                <img
+                  src="https://source.unsplash.com/random"
+                  class="rounded-circle"
+                  alt="..."
+                  height="40"
+                  width="40"
+                />
+              </div>
+              <div class="bio px-2">
+                <h1 class="m-0">Bonnie Green</h1>
+                <p>Aug 15, 2021 · 10:39</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 306px">
+          <img
+            src="https://source.unsplash.com/random"
+            class="card-img-top p-3 rounded-1"
+            alt="..."
+            height="216"
+            width="258"
+          />
+
+          <div class="card-body">
+            <div class="card-deskripsi">
+              <a
+                href="https://www.contoh-link.com"
+                class="btn2 border-0 rounded-5 text-white"
+                >Category 1</a
+              >
+              <h1 class="card-title fw-bold">Our first office</h1>
+              <p class="card-text">
+                Over the past year, Volosoft has undergone many changes! After
+                months of preparation and some hard work, we moved to our new
+                office .
+              </p>
+            </div>
+            <div class="card-bio d-flex">
+              <div class="">
+                <img
+                  src="https://source.unsplash.com/random"
+                  class="rounded-circle"
+                  alt="..."
+                  height="40"
+                  width="40"
+                />
+              </div>
+              <div class="bio px-2">
+                <h1 class="m-0">Bonnie Green</h1>
+                <p>Aug 15, 2021 · 10:39</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 306px">
+          <img
+            src="https://source.unsplash.com/random"
+            class="card-img-top p-3 rounded-1"
+            alt="..."
+            height="216"
+            width="258"
+          />
+
+          <div class="card-body">
+            <div class="card-deskripsi">
+              <a
+                href="https://www.contoh-link.com"
+                class="btn2 border-0 rounded-5 text-white"
+                >Category 1</a
+              >
+              <h1 class="card-title fw-bold">Our first office</h1>
+              <p class="card-text">
+                Over the past year, Volosoft has undergone many changes! After
+                months of preparation and some hard work, we moved to our new
+                office .
+              </p>
+            </div>
+            <div class="card-bio d-flex">
+              <div class="">
+                <img
+                  src="https://source.unsplash.com/random"
+                  class="rounded-circle"
+                  alt="..."
+                  height="40"
+                  width="40"
+                />
+              </div>
+              <div class="bio px-2">
+                <h1 class="m-0">Bonnie Green</h1>
+                <p>Aug 15, 2021 · 10:39</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/23bb81e0e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
