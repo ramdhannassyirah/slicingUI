@@ -59,7 +59,7 @@
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <div class="row">
             <div class="col">
               <!-- waktu -->
@@ -83,8 +83,30 @@
               </div>
 
               <!-- table 1 -->
+
+              <div class="sidetab">
+                <div
+                  class="tab position-fixed d-none d-lg-block d-md-block d-sm-none border border-1 rounded-2 bg-light"
+                >
+                  <div class="teks-title">
+                    <h1>Table of contents</h1>
+                  </div>
+                  <div class="deskripsi-table">
+                    <ul class="m-0">
+                      <li>short paragraph</li>
+                      <li>he dotted list is nice for the summary</li>
+                      <li>other short points to explain the news</li>
+                      <li>
+                        a short summary of the content of this very article
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- table sm -->
               <div
-                class="tab position-fixed border border-1 rounded-2 bg-light"
+                class="tab d-lg-none d-md-none d-sm-block border border-1 rounded-2 bg-light"
               >
                 <div class="teks-title">
                   <h1>Table of contents</h1>
@@ -102,7 +124,9 @@
           </div>
 
           <!-- ICONS -->
-          <div class="icon position-absolute d-sm-none d-lg-block">
+          <div
+            class="icon position-absolute d-none d-sm-none d-md-block d-lg-block"
+          >
             <div class="text">
               <h1>Share this article:</h1>
             </div>
@@ -187,6 +211,19 @@
               designers and developers.
             </p>
             <hr />
+
+            <div class="icon d-sm-block d-md-none d-lg-none">
+              <div class="text">
+                <h1>Share this article:</h1>
+              </div>
+              <div class="icon-share d-flex justify-content-between">
+                <i class="fa-brands fa-whatsapp fa-2xl"></i>
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+              </div>
+            </div>
           </div>
 
           <p class="posted fw-bold">
@@ -213,13 +250,53 @@
 
       <!-- card -->
       <div class="col carditem d-flex flex-wrap justify-content-center gap-4">
-        <div class="card" style="width: 306px">
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="https://source.unsplash.com/random"
+              class="card-img-top p-3 rounded-1"
+              alt="..."
+              height="216"
+            />
+          </div>
+
+          <div class="card-body">
+            <div class="card-deskripsi">
+              <a
+                href="https://www.contoh-link.com"
+                class="btn2 border-0 rounded-5 text-white"
+                >Category 1</a
+              >
+              <h1 class="card-title fw-bold">Our first office</h1>
+              <p class="card-text">
+                Over the past year, Volosoft has undergone many changes! After
+                months of preparation and some hard work, we moved to our new
+                office .
+              </p>
+            </div>
+            <div class="card-bio d-flex">
+              <div class="">
+                <img
+                  src="https://source.unsplash.com/random"
+                  class="rounded-circle"
+                  alt="..."
+                  height="40"
+                  width="40"
+                />
+              </div>
+              <div class="bio px-2">
+                <h1 class="m-0">Bonnie Green</h1>
+                <p>Aug 15, 2021 · 10:39</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
           <img
             src="https://source.unsplash.com/random"
             class="card-img-top p-3 rounded-1"
             alt="..."
             height="216"
-            width="258"
           />
 
           <div class="card-body">
@@ -253,7 +330,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 306px">
+        <div class="card">
           <img
             src="https://source.unsplash.com/random"
             class="card-img-top p-3 rounded-1"
@@ -277,55 +354,14 @@
               </p>
             </div>
             <div class="card-bio d-flex">
-              <div class="">
-                <img
-                  src="https://source.unsplash.com/random"
-                  class="rounded-circle"
-                  alt="..."
-                  height="40"
-                  width="40"
-                />
-              </div>
-              <div class="bio px-2">
-                <h1 class="m-0">Bonnie Green</h1>
-                <p>Aug 15, 2021 · 10:39</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card" style="width: 306px">
-          <img
-            src="https://source.unsplash.com/random"
-            class="card-img-top p-3 rounded-1"
-            alt="..."
-            height="216"
-            width="258"
-          />
+              <img
+                src="https://source.unsplash.com/random"
+                class="rounded-circle"
+                alt="..."
+                height="40"
+                width="40"
+              />
 
-          <div class="card-body">
-            <div class="card-deskripsi">
-              <a
-                href="https://www.contoh-link.com"
-                class="btn2 border-0 rounded-5 text-white"
-                >Category 1</a
-              >
-              <h1 class="card-title fw-bold">Our first office</h1>
-              <p class="card-text">
-                Over the past year, Volosoft has undergone many changes! After
-                months of preparation and some hard work, we moved to our new
-                office .
-              </p>
-            </div>
-            <div class="card-bio d-flex">
-              <div class="">
-                <img
-                  src="https://source.unsplash.com/random"
-                  class="rounded-circle"
-                  alt="..."
-                  height="40"
-                  width="40"
-                />
-              </div>
               <div class="bio px-2">
                 <h1 class="m-0">Bonnie Green</h1>
                 <p>Aug 15, 2021 · 10:39</p>

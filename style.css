@@ -1,7 +1,9 @@
 body {
-  padding: 175px 255px 0 206px;
-
   font-family: "inter";
+}
+
+.container {
+  padding: 175px 255px 0 206px;
 }
 
 /* breadcrumb */
@@ -52,13 +54,19 @@ a.btn {
   font-size: 14px;
 }
 
+/* sideTab */
+.sidetab {
+  position: fixed;
+  min-height: 10px;
+  background-color: #39950e;
+}
+
 /* table */
 
 .tab {
-  width: 321px;
   height: 141px;
   padding: 10px 12px;
-  margin-top: 43px;
+  top: 43px;
 }
 
 .teks-title {
@@ -72,7 +80,6 @@ a.btn {
 }
 
 .deskripsi-table {
-  width: 297px;
   height: 90px;
   padding: 0;
 }
@@ -84,18 +91,15 @@ a.btn {
 
 /* table 2 */
 .tab2 {
-  width: 592px;
   height: 166px;
   padding: 20px;
   margin-bottom: 43px;
 }
 .tab2-title2 {
-  width: 59px;
   height: 20px;
 }
 
 .tab2-deskripsi {
-  width: 531px;
   height: 84px;
 }
 
@@ -114,7 +118,8 @@ a.btn {
 
 .icon {
   width: 289px;
-  top: 1600px;
+  top: 1558px;
+  z-index: 2;
 }
 
 .icon h1 {
@@ -129,7 +134,6 @@ a.btn {
 /* image Future */
 
 .image {
-  width: 593px;
   height: 310px;
   overflow: hidden;
 }
@@ -167,13 +171,12 @@ button {
 }
 
 /* card */
-
-.carditem {
-  width: 984px;
-}
 .card {
   box-sizing: border-box;
-  padding: 10px;
+}
+
+.card-deskripsi {
+  width: 258.67px;
 }
 a.btn2 {
   font-size: 14px;
