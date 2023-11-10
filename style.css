@@ -55,10 +55,12 @@ a.btn {
 }
 
 /* sideTab */
+
 .sidetab {
-  position: fixed;
-  min-height: 10px;
-  background-color: #39950e;
+  height: 1000px;
+  position: -webkit-sticky;
+  top: 0;
+  width: 321px;
 }
 
 /* table */
@@ -66,7 +68,9 @@ a.btn {
 .tab {
   height: 141px;
   padding: 10px 12px;
-  top: 43px;
+  margin-top: 43px;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .teks-title {
